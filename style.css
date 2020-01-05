@@ -1,0 +1,95 @@
+/* IMAGES */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: rgb(126, 125, 216);
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 100vh;
+	line-height: 1.2;
+}
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 120%;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(25% - 1em);
+}
+
+h1 {
+	position: fixed;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: right;
+    font-size: 15em;
+    z-index: 0;
+    mix-blend-mode: color-dodge;
+    color: slateblue;
+    margin: 0;
+    padding: 0;
+    line-height: .5;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(-45deg);
+}
+
+img {
+
+}
+
+main {
+	position: relative;
+    top: 2em;
+	left: 2em;
+	right: 2em;
+    text-align: right;
+    font-size: 4em;
+    z-index: 0;
+    mix-blend-mode: color-dodge;
+    color: khaki;
+    margin: 4;
+    padding: 4;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: -0.05em;
+    transform: rotate(-180deg);
+}
+footer {
+	position: bottom;
+    top: relative;
+    left: -1em;
+	text-align: right; 
+    font-size: 1em;
+    z-index: 2;
+    mix-blend-mode: color-dodge;
+    color: ivory;
+    margin: 0;
+    padding: 50;
+    line-height: relative;
+    text-transform: lowercase;
+    letter-spacing: 1em;
+}
+
